@@ -15,7 +15,7 @@ Made by [BravoLisa](https://bravolisa.lu). Free for your own household's return 
 
 ## Status
 
-Draft, version 0.50.0 of BravoLisa's knowledge base, built on 2026-11-23. Forms and tools are for tax year 2025, with 2026 figures where known. Every rule was checked against official sources by BravoLisa; the skill has **not** been reviewed by a qualified accountant. It is general information, not tax advice. You check, sign and file your own return.
+Draft, version 0.50.1 of BravoLisa's knowledge base, built on 2026-11-23. Forms and tools are for tax year 2025, with 2026 figures where known. Every rule was checked against official sources by BravoLisa; the skill has **not** been reviewed by a qualified accountant. It is general information, not tax advice. You check, sign and file your own return.
 
 ## Install
 

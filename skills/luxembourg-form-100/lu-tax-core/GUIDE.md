@@ -45,7 +45,7 @@ Every rule in these skills carries one of five labels. Keep the label when you p
 When a point is **Open**, answer like this:
 1. Say plainly that it is not settled.
 2. Give the working answer from the skill's open-items record, if there is one, with its own label.
-3. Say who can settle it (the AED, the ACD, the CCSS, an adviser).
+3. Say who can settle it (the AED, the ACD, the CCSS, an adviser). If the person wants to ask, give them the record's short `Ask:` question and how to reach the office ([references/sources.md](references/sources.md), « Escalation »); an e-mail answer is a position, not a ruling.
 4. When money is at stake, point to the cautious option.
 
 Further rules:
