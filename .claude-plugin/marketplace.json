@@ -1,0 +1,22 @@
+{
+  "name": "bravolisa",
+  "owner": {
+    "name": "BravoLisa",
+    "email": "alex@bravolisa.lu"
+  },
+  "metadata": {
+    "description": "BravoLisa's agent skills for Luxembourg taxes",
+    "version": "0.50.0"
+  },
+  "plugins": [
+    {
+      "name": "luxembourg-form-100",
+      "description": "Luxembourg personal income tax return (Form 100), tax year 2025: the rules with their sources, step-by-step preparation, the official PDF filled in, the MyGuichet import file, a tax estimate and a check before signing.",
+      "source": "./",
+      "strict": false,
+      "skills": [
+        "./skills/luxembourg-form-100"
+      ]
+    }
+  ]
+}
