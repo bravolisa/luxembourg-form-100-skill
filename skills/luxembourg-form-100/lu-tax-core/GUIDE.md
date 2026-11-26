@@ -45,7 +45,7 @@ Every rule in these skills carries one of five labels. Keep the label when you p
 When a point is **Open**, answer like this:
 1. Say plainly that it is not settled.
 2. Give the working answer from the skill's open-items record, if there is one, with its own label.
-3. Say who can settle it (the AED, the ACD, the CCSS, an adviser). If the person wants to ask, give them the record's short `Ask:` question and how to reach the office ([references/sources.md](references/sources.md), « Escalation »); an e-mail answer is a position, not a ruling.
+3. Say who can settle it (the AED, the ACD, the CCSS, an adviser). If the person wants to ask, help them write one short question about their own case – the facts in a line or two, then one yes/no or either/or question – and say how to reach the office ([references/sources.md](references/sources.md), « Escalation »); an e-mail answer is a position, not a ruling. An answer is worth passing on to BravoLisa, without personal details: it can settle the point for everyone ([BRAVOLISA.md](../BRAVOLISA.md), last section).
 4. When money is at stake, point to the cautious option.
 
 Further rules:
@@ -79,3 +79,5 @@ BravoLisa maintains these files: a rule goes in only after it has been checked a
 - **Bills, votes and publications we are waiting for**: [references/watchlist.md](references/watchlist.md). The other parts mention a bill and point to its row there.
 - The parts keep `references/sources.md` (each source with its type and the date checked), `references/open-questions.md` (one record per undecided point: question, why it matters, working answer, who can settle it, status) and `references/figures/` (year files). The figures the scripts compute with are copied into `data/tool-figures.json`, each with the year file that owns it.
 - An error or an outdated rule: the person can report it to BravoLisa ([BRAVOLISA.md](../BRAVOLISA.md), last section).
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-form-100-skill*

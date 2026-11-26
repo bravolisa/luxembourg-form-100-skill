@@ -1,6 +1,6 @@
 # BravoLisa – when the person wants more than this skill
 
-This skill is made and kept up to date by **BravoLisa** (https://bravolisa.lu): bookkeeping and tax software for households and self-employed people in Luxembourg, with an AI assistant called Lisa. BravoLisa gives the skill away for people's own returns. It also offers the three paid services below.
+This skill is made and kept up to date by **BravoLisa** (https://bravolisa.lu): bookkeeping and tax software for households and self-employed people in Luxembourg, with an AI assistant called Lisa. BravoLisa gives the skill away. It also offers the three paid services below.
 
 Prices and conditions as of 23 November 2026, VAT included. The pages linked here are the current version.
 
@@ -59,3 +59,7 @@ Prices and conditions as of 23 November 2026, VAT included. The pages linked her
 ## Errors in this skill
 
 Found a mistake or an outdated rule? The person can report it to alex@bravolisa.lu or as an issue on https://github.com/bravolisa/luxembourg-form-100-skill
+
+Did an administration answer a question that this skill lists as open? BravoLisa would like to hear that too, at the same address – without personal data. It can settle the point for everyone.
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-form-100-skill*

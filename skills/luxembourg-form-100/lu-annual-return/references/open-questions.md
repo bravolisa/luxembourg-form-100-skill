@@ -22,7 +22,6 @@ Employer-interest and termination exemption mappings remain reviewed manual brid
 - Why it matters: The right exists, but entering it in a Form 100 box that does not exist could lose the claim.
 - Working answer: Keep the evidence – monthly pay, hours, social-insurance affiliation and proof that no tax card was used – and get the procedure from the ACD (its RTS offices handle tax on wages). Do not treat it as an ordinary yearly deduction. [C · lu-income-tax-personal S82; O for the channel]
 - Who can settle: ACD procedural guidance or written clarification.
-- Ask: (ACD) Par quel formulaire ou canal faut-il demander le CISSM prévu à l'article 139quater(6) après la fin de l'année ?
 - Status: open
 
 ## RET-O-03 · Mandatory XML workplace for direct replacement benefits
@@ -30,7 +29,6 @@ Employer-interest and termination exemption mappings remain reviewed manual brid
 - Why it matters: The office that pays the benefit is not a workplace; an invented commune could distort the return.
 - Working answer: Classify the benefit correctly as employee income and use paper boxes 709/710. The tools handle the calculation and the PDF for the reviewed cases. The XML file stops unless an authoritative source shows what to enter: that the schema makes the field compulsory does not say what goes in it. The commune list has had a code « AUTR » since the 2024 schema, but nothing says it means « no workplace ». [C · lu-income-tax-personal S1; lu-income-tax-personal S75; O for runtime semantics]
 - Who can settle: ACD/MyGuichet support or official import documentation.
-- Ask: (ACD) Pour une prestation de maladie, de maternité, d'accident ou de chômage versée directement, sans lieu de travail effectif, faut-il indiquer « AUTR » ou une commune précise dans le champ obligatoire du lieu de travail ?
 - Status: open
 
 ## RET-O-04 · Actual occupational contributions above the statutory cap in XML
@@ -38,7 +36,6 @@ Employer-interest and termination exemption mappings remain reviewed manual brid
 - Why it matters: Writing the retained cap into an actual-paid field falsifies the certificate; writing actual paid without proven cap semantics may overstate relief.
 - Working answer: The fields D1680_RCS_COT_CONT_NEX and D1700_RCS_COT_CONJ_NEX take the personal contributions **paid** (« Cotisations versées »), not the capped amount; the amount kept after the tax cap is a separate field of the 2025 schema, in the recap of special expenses – D3426_RDS_RCS_RET_CONT_NEX / D3846_RDS_RCS_RET_CONJ_NEX, « Montant retenu pour le calcul de l'impôt ». [C · lu-income-tax-personal S75] The recap need not be pre-filled: the assistant calculates it – documented for tax year 2021 and visible on the ACD's screenshots of the 2024 assistant (declared amount, ceiling and retained amount side by side). [C · lu-income-tax-personal S171, lu-income-tax-personal S61 for 2021 and 2024; I for 2025 – high confidence] So the amount actually paid is what the field asks for, also above the cap; that the 2025 assistant then retains the capped amount, and how it treats the salary-block field S0460 next to D1680, was not seen on a 2025 return. [O] Until one import and read-back shows it, preserve actual payments in the case and annex, keep the statutory deduction in calculation and paper 1605/1606, and keep the above-cap XML stop. [B]
 - Who can settle: ACD/MyGuichet support and an authorised test import.
-- Ask: (ACD) À l'import XML 2025, l'assistant plafonne-t-il lui-même les cotisations déclarées dans D1680_RCS_COT_CONT_NEX ?
 - Status: open
 
 ## RET-O-05 · MyGuichet status codes in a year of change
@@ -46,7 +43,6 @@ Employer-interest and termination exemption mappings remain reviewed manual brid
 - Why it matters: In 2021 the assistant decided from these codes whether the return has spouse pages; a wrong code could open or close them.
 - Working answer: Enter the status held on 1 January with the date it began, then one entry per status that began in the year, in date order. [I – high · lu-income-tax-personal S75; lu-income-tax-personal S171] Separated by court permission before the year: `SV` on 1 January, then `DI` at the divorce. A death: the survivor `MA` then `VE`, the deceased `MA` then `DE`. [I – medium] The household file states the codes and the builder writes them as given (forms/2025/family-events.md); check the identity pages in the assistant. [B]
 - Who can settle: ACD; one import with read-back.
-- Ask: (ACD) Pour un contribuable autorisé par le juge à résider séparément en 2024 et divorcé en janvier 2025, la « situation au 01/01/2025 » de la déclaration électronique est-elle « Séparé(e) » ou « Marié(e) » ?
 - Status: open
 
 ## RET-O-06 · « Current » address: the day of filing or 31 December
@@ -54,5 +50,6 @@ Employer-interest and termination exemption mappings remain reviewed manual brid
 - Why it matters: A move after the tax year and before filing; the earlier-address block and the XML list are only for moves inside the tax year.
 - Working answer: The address on the day of filing; a move after 31 December is not an "other address" of the year. [I – medium · lu-income-tax-personal S1; lu-income-tax-personal S75]
 - Who can settle: ACD.
-- Ask: (ACD) Sur le modèle 100, le « domicile actuel » est-il l'adresse au jour du dépôt de la déclaration ou celle au 31 décembre de l'année d'imposition ?
 - Status: open
+
+*Tax and accounting knowledge: BravoLisa – https://bravolisa.lu · licence [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) · https://github.com/bravolisa/luxembourg-form-100-skill*
