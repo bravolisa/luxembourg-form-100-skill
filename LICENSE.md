@@ -1,85 +1,38 @@
-Required Notice: Copyright 2026 BravoLisa (https://bravolisa.lu)
+# Licence
 
-## Additional permission
+Copyright 2026 BravoLisa (https://bravolisa.lu)
 
-In addition to the permitted purposes in the licence below, BravoLisa permits any individual to use this software, and to make changes to it, to prepare, check or file their own Luxembourg tax return or that of their household (their spouse or partner and their children), also when that return includes income from their own self-employed activity or business.
+## In short
 
-This additional permission does not cover preparing, checking or filing tax returns for other people as a service, or using the software in a product or service offered to others. For those uses, ask BravoLisa for a commercial licence: alex@bravolisa.lu.
+You may use this skill for any purpose: for yourself, in your business, for your clients, in your own product or service – also a commercial one. You may copy it, change it and share it. Two things are asked in return:
 
-The official documents of the Administration des contributions directes in `skills/luxembourg-form-100/official-forms/` are not part of the software and are not covered by this licence.
+- **Credit BravoLisa** when you share the skill, or something you made from it – see « How to credit ».
+- **Keep the notices**: this page, the two licence texts, the notice file, and the source line in each file.
 
----
+This page is a summary. The two licence texts are what counts.
 
-# PolyForm Noncommercial License 1.0.0
+## Which licence covers what
 
-<https://polyformproject.org/licenses/noncommercial/1.0.0>
+| What | Licence | Full text |
+|---|---|---|
+| **The texts** – every file that is not program code: rules, figures, guides, tables, the skill's instructions | Creative Commons Attribution 4.0 International (CC BY 4.0) | [LICENSE-CC-BY-4.0.txt](LICENSE-CC-BY-4.0.txt) |
+| **The tools** – the program code: every `.py` file | Apache License, Version 2.0 | [LICENSE-APACHE-2.0.txt](LICENSE-APACHE-2.0.txt), with [NOTICE.txt](NOTICE.txt) |
 
-## Acceptance
+## How to credit
 
-In order to get any license under these terms, you must agree to them as both strict obligations and conditions to all your licenses.
+When you share the texts, or texts you made from them, say:
 
-## Copyright License
+> Tax and accounting knowledge: BravoLisa – https://bravolisa.lu
 
-The licensor grants you a copyright license for the software to do everything you might do with the software that would otherwise infringe the licensor's copyright in it for any permitted purpose.  However, you may only distribute the software according to [Distribution License](#distribution-license) and make changes or new works based on the software according to [Changes and New Works License](#changes-and-new-works-license).
+Name the licence (CC BY 4.0, https://creativecommons.org/licenses/by/4.0/) and say if you changed the texts. When you pass on the tools, keep `NOTICE.txt` and the copyright lines in the files, and mark the files you changed.
 
-## Distribution License
+If you build on this skill without sharing its files – inside your own product or service, for example – please say "Tax and accounting knowledge: BravoLisa" with a link.
 
-The licensor grants you an additional copyright license to distribute copies of the software.  Your license to distribute covers distributing the software with changes and new works permitted by [Changes and New Works License](#changes-and-new-works-license).
+## Not covered
 
-## Notices
+- **The name and logo « BravoLisa »** are not licensed. Use the name to give credit; do not use it as the name of your own product or service, or in a way that suggests BravoLisa stands behind it.
+- **Official documents**: the forms and schemas of the Luxembourg administrations in the skill's folder `official-forms/`, and the official texts quoted in the files, remain their authors'.
 
-You must ensure that anyone who gets a copy of any part of the software from you also gets a copy of these terms or the URL for them above, as well as copies of any plain-text lines beginning with `Required Notice:` that the licensor provided with the software.  For example:
+## No warranty
 
-> Required Notice: Copyright Yoyodyne, Inc. (http://example.com)
-
-## Changes and New Works License
-
-The licensor grants you an additional copyright license to make changes and new works based on the software for any permitted purpose.
-
-## Patent License
-
-The licensor grants you a patent license for the software that covers patent claims the licensor can license, or becomes able to license, that you would infringe by using the software.
-
-## Noncommercial Purposes
-
-Any noncommercial purpose is a permitted purpose.
-
-## Personal Uses
-
-Personal use for research, experiment, and testing for the benefit of public knowledge, personal study, private entertainment, hobby projects, amateur pursuits, or religious observance, without any anticipated commercial application, is use for a permitted purpose.
-
-## Noncommercial Organizations
-
-Use by any charitable organization, educational institution, public research organization, public safety or health organization, environmental protection organization, or government institution is use for a permitted purpose regardless of the source of funding or obligations resulting from the funding.
-
-## Fair Use
-
-You may have "fair use" rights for the software under the law. These terms do not limit them.
-
-## No Other Rights
-
-These terms do not allow you to sublicense or transfer any of your licenses to anyone else, or prevent the licensor from granting licenses to anyone else.  These terms do not imply any other licenses.
-
-## Patent Defense
-
-If you make any written claim that the software infringes or contributes to infringement of any patent, your patent license for the software granted under these terms ends immediately. If your company makes such a claim, your patent license ends immediately for work on behalf of your company.
-
-## Violations
-
-The first time you are notified in writing that you have violated any of these terms, or done anything with the software not covered by your licenses, your licenses can nonetheless continue if you come into full compliance with these terms, and take practical steps to correct past violations, within 32 days of receiving notice.  Otherwise, all your licenses end immediately.
-
-## No Liability
-
-***As far as the law allows, the software comes as is, without any warranty or condition, and the licensor will not be liable to you for any damages arising out of these terms or the use or nature of the software, under any kind of legal claim.***
-
-## Definitions
-
-The **licensor** is the individual or entity offering these terms, and the **software** is the software the licensor makes available under these terms.
-
-**You** refers to the individual or entity agreeing to these terms.
-
-**Your company** is any legal entity, sole proprietorship, or other kind of organization that you work for, plus all organizations that have control over, are under the control of, or are under common control with that organization.  **Control** means ownership of substantially all the assets of an entity, or the power to direct its management and policies by vote, contract, or otherwise.  Control can be direct or indirect.
-
-**Your licenses** are all the licenses granted to you for the software under these terms.
-
-**Use** means anything you do with the software requiring one of your licenses.
+The skill comes as it is, with no warranty and no liability. Both licences say so (CC BY 4.0, section 5; Apache 2.0, sections 7 and 8), and the [terms of use](TERMS.md) say it in plain words.

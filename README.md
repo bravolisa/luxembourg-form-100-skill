@@ -2,7 +2,7 @@
 
 Give this skill to your AI agent and it can help you with the Luxembourg personal income tax return (Form 100) for **tax year 2025**. It explains the rules in plain words, walks you through the return box by box, estimates your tax, fills in the official PDF, builds the file MyGuichet imports, and goes through a checklist with you before you sign.
 
-Made by [BravoLisa](https://bravolisa.lu). Free for your own household's return – see [Licence](#licence).
+Made by [BravoLisa](https://bravolisa.lu). Free to use, change and share, also commercially – see [Licence](#licence).
 
 ## What it covers
 
@@ -15,7 +15,7 @@ Made by [BravoLisa](https://bravolisa.lu). Free for your own household's return 
 
 ## Status
 
-Draft, version 0.50.1 of BravoLisa's knowledge base, built on 2026-11-23. Forms and tools are for tax year 2025, with 2026 figures where known. Every rule was checked against official sources by BravoLisa; the skill has **not** been reviewed by a qualified accountant. It is general information, not tax advice. You check, sign and file your own return.
+**An experiment.** BravoLisa built this skill with the help of AI agents. This is version 0.50.1 of its knowledge base, built on 2026-11-26. Forms and tools are for tax year 2025, with 2026 figures where known. It is general information that an AI applies, not tax advice, and it can be wrong or out of date. You check, sign and file your own return. By installing or using the skill you accept the [licence](LICENSE.md) and the [terms of use](TERMS.md).
 
 ## Install
 
@@ -53,14 +53,17 @@ Details and limits: [BRAVOLISA.md](skills/luxembourg-form-100/BRAVOLISA.md).
 
 ## Licence
 
-[PolyForm Noncommercial 1.0.0](LICENSE.md), with one additional permission: **anyone may use this skill for their own or their household's tax return**, also when it includes income from their own business.
+Free to use for any purpose, also a commercial one: for yourself, in your business, for your clients, in your own product or service. You may copy it, change it and share it. The summary is in [LICENSE.md](LICENSE.md).
 
-Using it to prepare or check returns for clients, or in a product or service for others – accountants, fiduciaries, software companies – needs a commercial licence: alex@bravolisa.lu.
+- **The texts** (rules, figures, guides): [CC BY 4.0](LICENSE-CC-BY-4.0.txt). When you share them, or texts made from them, credit BravoLisa with a link and say if you changed them.
+- **The tools** (the Python code): [Apache 2.0](LICENSE-APACHE-2.0.txt). Keep [NOTICE.txt](NOTICE.txt) and the copyright lines in the files.
 
-The ACD's blank form and schema in `official-forms/` belong to the ACD and are not covered by this licence.
+If you build on this, please say "Tax and accounting knowledge: BravoLisa" with a link to https://bravolisa.lu.
+
+The name and logo "BravoLisa" are not licensed. The ACD's blank form and schema in `official-forms/` belong to the ACD.
 
 ## Errors and updates
 
 Found an error or an outdated rule? Open an issue here or write to alex@bravolisa.lu.
 
-This repository is generated from BravoLisa's internal knowledge base, where every change is checked against the official texts first. Pull requests are read but cannot be merged directly – the fix goes in through the knowledge base and appears here with the next update.
+This repository is generated from BravoLisa's internal knowledge base. Pull requests are read but cannot be merged directly – the fix goes in through the knowledge base and appears here with the next update.
