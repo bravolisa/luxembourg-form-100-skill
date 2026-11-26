@@ -11,7 +11,7 @@ Made by [BravoLisa](https://bravolisa.lu). Free to use, change and share, also c
 - **Every rule has a label and a source:** confirmed by an official text, our interpretation, practice, or still open – with links to the law, the forms and the tax office's pages.
 - **Tools** (Python): tax estimate, Form 100 PDF filler, MyGuichet import file (checked against the tax office's schema), and a reader for the PDF MyGuichet gives back.
 
-**Not included:** computing a business profit (Forms 152 and 110), VAT, social-security contributions and company taxes. A self-employed person brings their profit from their own forms or accountant.
+**Not included:** computing a business profit (Forms 152 and 110), VAT, social-security contributions and company taxes. A self-employed person brings their profit from their own forms or accountant – or uses BravoLisa's larger skill, [luxembourg-self-employed-accounting](https://github.com/bravolisa/luxembourg-self-employed-accounting-skill), which holds all of that and everything in this one.
 
 ## Status
 
