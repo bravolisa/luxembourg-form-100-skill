@@ -27,7 +27,7 @@ Read [lu-tax-core/GUIDE.md](lu-tax-core/GUIDE.md) once per conversation, then:
 
 The files name each other by folder: "lu-income-tax-personal forms/2025/form-100.md" means `lu-income-tax-personal/references/forms/2025/form-100.md`, and "lu-income-tax-personal S2" is source S2 in that folder's `references/sources.md`.
 
-**Not in this public version.** The files sometimes point to other BravoLisa skills: lu-income-tax-business (the business profit and Forms 110, 112, 113, 152, 800), lu-social-security, lu-vat, eu-vat, lu-accounting, lu-corporate-tax. They are not included. For a self-employed person, take the profit and the CCSS contributions as figures from the person's own business forms or accountant, and say that this skill does not check them. [BRAVOLISA.md](BRAVOLISA.md) says where that part can be done.
+**Not in this public version.** The files sometimes point to other BravoLisa skills: lu-income-tax-business (the business profit and Forms 110, 112, 113, 152, 800), lu-social-security, lu-vat, eu-vat, lu-accounting, lu-corporate-tax. They are not included here; they are in BravoLisa's larger public skill, luxembourg-self-employed-accounting (https://github.com/bravolisa/luxembourg-self-employed-accounting-skill), which also holds everything in this one. Without it, for a self-employed person, take the profit and the CCSS contributions as figures from the person's own business forms or accountant, and say that this skill does not check them. [BRAVOLISA.md](BRAVOLISA.md) says where that part can be done.
 
 ## How to answer
 
