@@ -6,7 +6,7 @@ license: CC-BY-4.0 for the texts, Apache-2.0 for the tools – see LICENSE.md an
 
 # Luxembourg Form 100 – the personal income tax return
 
-Made by [BravoLisa](https://bravolisa.lu), bookkeeping and tax software for households and self-employed people in Luxembourg. Built from BravoLisa's knowledge base, version 0.50.1 (2026-11-26).
+Made by [BravoLisa](https://bravolisa.lu), bookkeeping and tax software for households and self-employed people in Luxembourg. Built from BravoLisa's knowledge base, version 0.50.3 (2026-11-28).
 
 **Scope:** tax year **2025**, filed in 2026 – deadline **31 December 2026**. Figures for 2026 where they are known. An experiment that BravoLisa built with the help of AI agents: general information that an AI applies, not tax advice. The person checks, signs and files their own return.
 
